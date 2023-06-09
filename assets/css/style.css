@@ -266,7 +266,6 @@ html {
 
 .header__area {
     padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .header__main__blk {
@@ -685,6 +684,97 @@ html {
 }
 
 /*-------------------- About area css end --------------------*/
+
+
+/*-------------------- Contact area css start --------------------*/
+
+.contact__area {
+    padding-top: 130px;
+    padding-bottom: 100px;
+    background-image: url(../img/contact/contact_bg.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.contact__area::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    background-color: #000;
+    opacity: .2;
+}
+
+.contact__area .container {
+    max-width: 600px;
+}
+
+.contact__title {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.contact__title h2 {
+    font-size: 48px;
+    margin-bottom: 0;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.contact__form input {
+    width: 100%;
+    height: 56px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    padding: 0px 20px;
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.contact__form textarea {
+    width: 100%;
+    height: 165px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    padding: 15px 20px;
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    outline: none;
+    resize: none;
+}
+
+.contact__form button {
+    width: 180px;
+    height: 56px;
+    border: none;
+    outline: none;
+    background-color: #2ea3f2;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .3s;
+    border-radius: 4px;
+}
+
+.contact__form button:hover {
+    background-color: #0aca70;
+    color: #fff;
+}
+
+/*-------------------- Contact area css end --------------------*/
 
 
 /*-------------------- Default area css start --------------------*/
