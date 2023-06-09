@@ -777,6 +777,144 @@ html {
 /*-------------------- Contact area css end --------------------*/
 
 
+/*-------------------- Product area css start --------------------*/
+
+.product__area {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.product__wrap {
+    display: grid;
+    grid-template-columns: 3fr 10fr;
+    gap: 30px;
+}
+
+.product__sidebar__title h4 {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #2ea3f2;
+}
+
+.product__sidebar__title {
+    margin-bottom: 15px;
+}
+
+.product__sidebar__menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.product__sidebar__menu ul li a {
+    color: #536262;
+    font-size: 15px;
+    font-weight: 400;
+    display: block;
+    border-bottom: 1px solid #dddddd;
+    padding: 12px 0px;
+    transition: .3s;
+}
+
+.product__sidebar__menu ul li a:hover {
+    color: #2ea3f2;
+}
+
+.product__sidebar__menu ul li:last-child a {
+    border-bottom: none;
+}
+
+.product__main__blk {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product__single__blk {
+    border: 1px solid #ddd;
+    padding: 20px;
+    position: relative;
+}
+
+.product__img__blk {
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.product__img__blk img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .3s;
+}
+
+.product__single__blk:hover .product__img__blk img {
+    transform: scale(1.1);
+}
+
+.product__single__content h4 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    transition: .3s;
+}
+
+.product__single__blk:hover .product__single__content h4 {
+    color: #2ea3f2;
+}
+
+.product__single__content a {
+    width: 100%;
+    height: 40px;
+    font-size: 13px;
+}
+
+
+
+
+
+.product__pagination {
+    margin-top: 50px;
+}
+
+.product__pagination .pagination {
+    margin-bottom: 0;
+}
+
+.product__pagination .page-link {
+    padding: 0;
+}
+
+.product__pagination .page-link {
+    display: flex;
+    color: #536262;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+}
+
+.product__pagination .page-link:hover {
+    color: #fff;
+    background-color: #2ea3f2;
+    border-color: #2ea3f2;
+}
+
+.product__pagination .page-link:focus {
+    color: #fff;
+    background-color: #2ea3f2;
+    box-shadow: none;
+}
+
+/*-------------------- Product area css end --------------------*/
+
+
 /*-------------------- Default area css start --------------------*/
 /*-------------------- Default area css end --------------------*/
 
